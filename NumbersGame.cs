@@ -36,7 +36,7 @@ class NumbersGame{
                     }
                 }
             }catch{
-                Console.WriteLine("You can only guess number.");
+                Console.WriteLine("You can only guess a number.");
             }
         }
 

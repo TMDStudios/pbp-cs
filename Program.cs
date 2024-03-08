@@ -8,8 +8,10 @@ string[] ConsoleOptions = {
     "5 => Quit"
     };
 NumbersGame numbersGame = new();
+Calculator calculator = new();
 
 void PrintWelcome(){
+    Console.WriteLine("\n\n");
     string Message = "This is a collection of select Project Based Python projects";
     for(int i = 0; i<Message.Length; i++){
         Console.Write("*");
@@ -32,7 +34,7 @@ while(!Exit){
             numbersGame.StartGame();
             break;
         case "2":
-            Console.WriteLine("Coming Soon");
+            calculator.StartCalculator();
             break;
         case "3":
             Console.WriteLine("Coming Soon");
