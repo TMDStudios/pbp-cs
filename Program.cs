@@ -9,6 +9,7 @@ string[] ConsoleOptions = {
     };
 NumbersGame numbersGame = new();
 Calculator calculator = new();
+GuessThePhrase guessThePhrase = new();
 
 void PrintWelcome(){
     Console.WriteLine("\n\n");
@@ -37,7 +38,7 @@ while(!Exit){
             calculator.StartCalculator();
             break;
         case "3":
-            Console.WriteLine("Coming Soon");
+            guessThePhrase.StartGame();
             break;
         case "4":
             Console.WriteLine("Coming Soon");
