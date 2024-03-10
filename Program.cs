@@ -10,6 +10,7 @@ string[] ConsoleOptions = {
 NumbersGame numbersGame = new();
 Calculator calculator = new();
 GuessThePhrase guessThePhrase = new();
+UsernameAndPassword usernameAndPassword = new();
 
 void PrintWelcome(){
     Console.WriteLine("\n\n");
@@ -41,7 +42,7 @@ while(!Exit){
             guessThePhrase.StartGame();
             break;
         case "4":
-            Console.WriteLine("Coming Soon");
+            usernameAndPassword.StartUsernameAndPassword();
             break;
         case "5":
             Exit=true;
